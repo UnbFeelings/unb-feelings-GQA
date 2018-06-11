@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  machine:
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - "8888:8888"
